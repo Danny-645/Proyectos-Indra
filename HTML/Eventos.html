@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista</title>
+	
+	<style>
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #6200ea;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    padding: 0;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #6200ea;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #6200ea;
+    color: white;
+    font-weight: bold;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+table a {
+    color: #6200ea;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+	</style>
+</head>
+<body>
+    <header>
+        <h1>Listado de Eventos</h1>
+        <nav sans-serif="Navegación principal">
+            <ul>
+                <li><a href="PortalEventos.html">PortalEventos</a></li>
+                <li><a href="Eventos.html">Eventos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="listado-eventos">
+            <h2>Próximos Eventos</h2>
+            <table>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Fecha</th>
+                        <th>Descripción</th>
+                    </tr>
+                    <tr>
+                        <td><a href="detalle-evento1.html">Concierto de Rock</a></td>
+                        <td>18 de Octubre 2025</td>
+                        <td>Un concierto con las mejores bandas de rock del momento, no te lo pierdas.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="detalle-evento2.html">Japan Week</a></td>
+                        <td>16 de Noviembre 2025</td>
+                        <td>Un festival para aquellos amantes del anime, los videojuegos y los comics entre otras cosas.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="detalle-evento3.html">Exposición científica</a></td>
+                        <td>10 de Diciembre 2025</td>
+                        <td>Descubre las últimas innovaciones tecnológicas y proyectos de las universidades más prestigiosas.</td>
+                    </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Portal de Eventos.</p>
+    </footer>
+</body>
+</html>
